@@ -1,0 +1,16 @@
+{
+  "name": "tdd-nodejs",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "3.2.6",
+    "jade": "*",
+    "mocha": "^5.1.1",
+    "sinon": "^5.0.7"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test"	: "node ./node_modules/mocha/bin/mocha"
+  }
+}
